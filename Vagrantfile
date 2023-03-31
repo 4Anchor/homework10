@@ -11,7 +11,6 @@ Vagrant.configure("2") do |config|
 end
 
 Vagrant::Config.run do |config|
-#  config.vm.box = "ubuntu/trusty64"
   config.vm.box = "ubuntu/bionic64"
   config.vm.host_name = "postgresql" 
 
